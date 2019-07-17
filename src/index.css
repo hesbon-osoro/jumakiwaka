@@ -30,8 +30,9 @@ nav{
     color:  #D9D0D6;    
 }
 #profile{
-    border-radius: 80px;
+    border-radius: 100%;
     border: 3px solid #315259;
+    width: 40%;    
 }
 
 .center{
@@ -42,13 +43,21 @@ nav{
     width: 100%;
 }
 
-@media screen and (max-width: 582px){
+@media screen and (max-width: 620px){
     #nav li{
         display: block;
         width: 30%;
         margin-left: 30%;
         border-bottom: 2px solid #D9D0D6;       
-    }    
+    }  
+    
+}
+@media screen and (min-width: 620px){
+    #nav li{
+        display: inline-block;
+        width: 20%;      
+        border-bottom: 2px solid #D9D0D6;       
+    }  
     
 }
 /* Color Theme Swatches in Hex */
