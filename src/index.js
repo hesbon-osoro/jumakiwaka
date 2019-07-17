@@ -5,9 +5,9 @@ const slide = document.querySelector('#projects img');
 const caption = document.querySelector('#projects figcaption');
 
 const images = [
-    {src:'nature.jpg', name:'<a href="#">accessible web form</a>'},
-    {src:'Screenshot (12).png', name:'<a href="#">creditcardapp</a>'},
-    {src:'Screenshot (16).png', name:'<a href="#">fractions calculator</a>'},
+    {src:'./src/nature.jpg', name:'<a href="#">accessible web form</a>'},
+    {src:'./src/Screenshot (12).png', name:'<a href="#">creditcardapp</a>'},
+    {src:'./src/Screenshot (16).png', name:'<a href="#">fractions calculator</a>'},
 ]
 let i = 0;
 
