@@ -5,9 +5,9 @@ const slide = document.querySelector('#projects img');
 const caption = document.querySelector('#projects figcaption');
 
 const images = [
-    {src:'./src/nature.jpg', name:'<a href="#">accessible web form</a>'},
-    {src:'./src/Screenshot (12).png', name:'<a href="#">creditcardapp</a>'},
-    {src:'./src/Screenshot (16).png', name:'<a href="#">fractions calculator</a>'},
+    {src:'./images/nature.jpg', name:'<a href="#">accessible web form</a>'},
+    {src:'./images/Screenshot (12).png', name:'<a href="#">creditcardapp</a>'},
+    {src:'./images/Screenshot (16).png', name:'<a href="#">fractions calculator</a>'},
 ]
 let i = 0;
 
@@ -26,5 +26,13 @@ window.onload = setInterval(() => {
     }    
 }, 5000);
 
+function toggleFullPic(){
+    const photo = document.querySelector('#aboutme img');
+    if(photo.style.borderRadius != "0px"){
+        photo.style.borderRadius = "0px";
 
+    }else{
+        photo.style.borderRadius = "80px";           
+    }    
+}
     
