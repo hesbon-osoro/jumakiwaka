@@ -42,12 +42,14 @@ nav{
     width: 100%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 582px){
     #nav li{
         display: block;
         width: 30%;
-        margin-left: 30%;        
-    }
+        margin-left: 30%;
+        border-bottom: 2px solid #D9D0D6;       
+    }    
+    
 }
 /* Color Theme Swatches in Hex */
 .coding-1{ background-color: #D9D0D6; }
