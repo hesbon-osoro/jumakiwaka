@@ -32,7 +32,7 @@ function toggleFullPic(){
         photo.style.borderRadius = "0px";
 
     }else{
-        photo.style.borderRadius = "80px";           
+        photo.style.borderRadius = "100%";           
     }    
 }
     
