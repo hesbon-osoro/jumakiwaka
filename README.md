@@ -1,3 +1,3 @@
-[![portfolio](./src/img/portfolio/jka.png)](jumakiwaka.github.io)
+[![portfolio](./src/img/portfolio/jka.png)](https://jumakiwaka.github.io/)
 
-Live: [jumakiwaka.github.io](jumakiwaka.github.io)
+Live: [jumakiwaka.github.io](https://jumakiwaka.github.io/)
